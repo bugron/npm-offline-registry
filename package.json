@@ -1,0 +1,32 @@
+{
+  "name": "npm-offline-registry",
+  "version": "0.0.1",
+  "description": "An offline npm local registry based on already installed npm packages",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -e js --ignore registry/ server.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "npm-packlist": "^1.4.6",
+    "progress": "^2.0.3",
+    "pump": "^3.0.0",
+    "semver-compare": "^1.0.0",
+    "tar": "^4.4.13"
+  },
+  "keywords": [
+    "npm",
+    "registry"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "eslint": "^6.7.2",
+    "nodemon": "^2.0.1"
+  }
+}

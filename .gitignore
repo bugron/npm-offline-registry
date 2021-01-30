@@ -1,0 +1,4 @@
+registry/
+node_modules
+*.tgz
+.env*
