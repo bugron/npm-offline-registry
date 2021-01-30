@@ -1,4 +1,5 @@
-registry/
+registry/node_modules
+registry/*.json
 node_modules
 *.tgz
 .env*
